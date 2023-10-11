@@ -2,7 +2,7 @@ import bodyParser from 'body-parser';
 import express from 'express';
 
 import eventRoutes from './routes/events.js';
-
+//comments
 const app = express();
 
 app.use(bodyParser.json());
